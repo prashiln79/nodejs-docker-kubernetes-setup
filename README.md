@@ -17,10 +17,10 @@
 
 
 ## kubernetes config file
- - apiVersion: v1   -> in kubernetes we can create custome object or we can get default one using v1 value 
-   kind: Pod        -> type of object here it is pod which will wrap our docker cantainer
-   metadata:        -> with this we can add diffrent option to object we create 
-     name: app      -> this use to give name to this pod after creating 
+ - apiVersion: v1   -> in kubernetes we can create custome object or we can get default one using v1 value <br>
+ - kind: Pod        -> type of object here it is pod which will wrap our docker cantainer <br>
+ -   metadata:        -> with this we can add diffrent option to object we create  <br>
+ -    name: app      -> this use to give name to this pod after creating  <br>
    spec:
      containers:
        - name: app
