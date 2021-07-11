@@ -47,6 +47,6 @@
 ## deployment object is use to manange diffrent pods ( as any time if a pod is down it can restart and keep it alive) 
  
 
-## we need to rebuild img file what we created previouly in that same diractive if we made some code changes
+## we need to rebuild img file what we created previouly in that same diractive if we made some code changes and reapplay config
 
 
