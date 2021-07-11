@@ -59,7 +59,10 @@
  - load Balancer - make a pod accessible from outside the cluster 
  - External name - redirect an in-cluster reuest to a CName url
 
+## ingress-nginx 
+- project that will create a load balancer service + an ingress for us 
 
+## similar project kubernetes-ingress
  
 
 
