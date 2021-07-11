@@ -8,12 +8,18 @@
 ## image 
 - is like blueprint to created container 
 
+## docker command
+- docker build -t name - to create image base on config in current directive 
+- docker run img-name - to create container from image and start
+- docekr run -it img-name  - to run and override default containers
+- docker ps - give list of all running container
+- docker exec -it [contaier id] [cmd] - execute given cmd in running container
+- docker logs [container id] - print out log from the given container
 
-## Run kubernets config
- - kubectl apply -f config.yaml
-
-## To get number pods running currently
- - kubectl get pods
+## kubernets command
+ - kubectl apply -f config.yaml   - Run kubernets config to create object
+ - kubectl get pods - To get number pods running currently
+ 
 
 ## if version number is given to image, kuberbetes try to find that on local first then on repo(doker hub)
 
