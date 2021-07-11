@@ -23,6 +23,8 @@
  - kubectl logs [pod_name] - print out logs from the given pod
  - kubectl delete pod [pod_name] - delete given pod
  - kubectl describe pod [pod_name] - print out info about the runnning pod
+
+## deployment object is use to manange diffrent pods ( as any time if a pod is down it can restart and keep it alive) 
  
 
 ## if version number is given to image, kuberbetes try to find that on local first then on repo(doker hub)
