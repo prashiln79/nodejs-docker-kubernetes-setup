@@ -15,6 +15,8 @@
 ## To get number pods running currently
  - kubectl get pods
 
+## if version number is given to image, kuberbetes try to find that on local first then on repo
+
 
 ## kubernetes config file
  - apiVersion: v1   -> in kubernetes we can create custome object or we can get default one using v1 value <br>
