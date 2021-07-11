@@ -16,9 +16,13 @@
 - docker exec -it [contaier id] [cmd] - execute given cmd in running container
 - docker logs [container id] - print out log from the given container
 
-## kubernets command
- - kubectl apply -f config.yaml   - Run kubernets config to create object
+## kubernets command ( Yaml is a json obj without curly braces)
+ - kubectl apply -f config.yaml   - Run kubernets config to create object | to process config file
  - kubectl get pods - To get number pods running currently
+ - kubectl exec -it [prod_name] [cmd] - to execute give cmd in a running pod
+ - kubectl logs [pod_name] - print out logs from the given pod
+ - kubectl delete pod [pod_name] - delete given pod
+ - kubectl describe pod [pod_name] - print out info about the runnning pod
  
 
 ## if version number is given to image, kuberbetes try to find that on local first then on repo(doker hub)
@@ -33,3 +37,5 @@
  -    containers:    -> array of pods | number of container inside our pod | - dash means we want this to b array entitiy in yaml <br>
  --      - name: app   -> name to container <br>
  --        image: nodejs-app - img name of container whc we build intiale <br>
+
+
