@@ -49,4 +49,7 @@
 
 ## we need to rebuild img file what we created previouly in that same diractive if we made some code changes and reapplay config
 
+## kubectl rollout restart deployment [name] -- to update deployment whc require img to push on docker server
+
+
 
