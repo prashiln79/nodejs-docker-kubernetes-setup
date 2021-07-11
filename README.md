@@ -19,7 +19,7 @@
 ## kubernets command ( Yaml is a json obj without curly braces)
  - kubectl apply -f config.yaml   - Run kubernets config to create object | to process config file
  - kubectl get pods - To get number pods running currently
- - kubectl exec -it [prod_name] [cmd] - to execute give cmd in a running pod
+ - kubectl exec -it [prod_name] [cmd] - to execute give cmd in a running pod | sh shell inside container
  - kubectl logs [pod_name] - print out logs from the given pod
  - kubectl delete pod [pod_name] - delete given pod
  - kubectl describe pod [pod_name] - print out info about the runnning pod
