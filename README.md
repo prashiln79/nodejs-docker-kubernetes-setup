@@ -24,8 +24,11 @@
  - kubectl delete pod [pod_name] - delete given pod
  - kubectl describe pod [pod_name] - print out info about the runnning pod
 
-## deployment object is use to manange diffrent pods ( as any time if a pod is down it can restart and keep it alive) 
- 
+## kubernets command deployment
+ - kubectl get deployments  - list of all running deployemnt 
+ - kubectl describe deployment [name]
+ - kubectl delete deployment [name] 
+
 
 ## if version number is given to image, kuberbetes try to find that on local first then on repo(doker hub)
 
@@ -39,5 +42,11 @@
  -    containers:    -> array of pods | number of container inside our pod | - dash means we want this to b array entitiy in yaml <br>
  --      - name: app   -> name to container <br>
  --        image: nodejs-app - img name of container whc we build intiale <br>
+
+
+## deployment object is use to manange diffrent pods ( as any time if a pod is down it can restart and keep it alive) 
+ 
+
+## config File for deployment object
 
 
