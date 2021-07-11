@@ -54,10 +54,12 @@
 ## services object - to setup communincation beetween our pots
 
 ## Type of services
- - cluster IP - set up an easy to remember URL to access pod 
+ - cluster IP - set up an easy to remember URL to access pod by other pods inside the cluster
  - Node Port - make pod accessible from outside the cluster for dev purpose
- - load Balancer - make a pod accessible from putside the cluster 
+ - load Balancer - make a pod accessible from outside the cluster 
  - External name - redirect an in-cluster reuest to a CName url
+
+
  
 
 
