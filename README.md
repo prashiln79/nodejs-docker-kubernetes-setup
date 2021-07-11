@@ -7,3 +7,10 @@
 
 ## image 
 - is like blueprint to created container 
+
+
+## Run kubernets config
+ - kubectl apply -f config.yaml
+
+## To get number pods running currently
+ - kubectl get pods
