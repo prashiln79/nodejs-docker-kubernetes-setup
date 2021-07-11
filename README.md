@@ -15,7 +15,7 @@
 ## To get number pods running currently
  - kubectl get pods
 
-## if version number is given to image, kuberbetes try to find that on local first then on repo
+## if version number is given to image, kuberbetes try to find that on local first then on repo(doker hub)
 
 
 ## kubernetes config file
