@@ -1,0 +1,18 @@
+apiVersion: apps/v1 
+kind: deployment
+metadata:
+  name: app-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app
+  template:
+    metadata:
+      labels:
+        app: app
+    spec:
+      containes:
+        - name: posts
+          image: docker-img
+---
