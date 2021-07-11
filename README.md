@@ -18,10 +18,10 @@
 
 ## kubernetes config file
  - apiVersion: v1   -> in kubernetes we can create custome object or we can get default one using v1 value <br>
- - kind: Pod        -> type of object here it is pod which will wrap our docker cantainer <br>
+ - kind: Pod        -> type of object here it is pod which will wrap our docker container <br>
  -   metadata:        -> with this we can add diffrent option to object we create  <br>
  -    name: app      -> this use to give name to this pod after creating  <br>
-   spec:
-     containers:
-       - name: app
-         image: nodejs-app
+ -    spec:          -> configuration option to pod  | what is going inside pod & how it should behave <br>
+ -    containers:    -> array of pods | number of container inside our pod | - dash means we want this to b array entitiy in yaml <br>
+ --      - name: app   -> name to container <br>
+ --        image: nodejs-app - img name of container whc we build intiale <br>
