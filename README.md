@@ -64,5 +64,5 @@
 
 ## similar project kubernetes-ingress
  
-
+## Skaffold - make many task automates in kubernates dev environment
 
